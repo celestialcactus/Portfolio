@@ -1,0 +1,522 @@
+/* =======================================
+    style.css
+    use this file for your custom styles
+========================================== */
+
+/* use a box model that makes sense */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* set the default color, font-size, and line height */
+html {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1200px; /* change this width to make a wider page!*/
+  padding: 0 1em; /* 1em of padding on the left and right side */
+}
+
+/* make images and embedded media fluid */
+img,
+object {
+  max-width: 100%;
+}
+
+/* type hierarchy- change for your project */
+h1 {
+  font-size: 3em; /* 48px */
+}
+
+h2 {
+  font-size: 2.25em /* 36px */
+}
+
+h3 {
+  font-size: 1.75em /* 28px */
+}
+
+h4 {
+  font-size: 1.125em /*18px */
+}
+
+/* navigation list styles */
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* =======================================
+    author styles
+    place your custom styles below here
+========================================== */
+
+#header #mainNavWrapper {
+    text-align: center;
+    padding: 0 21px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1em;
+    position: relative;
+}
+
+
+.header-inner {
+    padding: 21px 0;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header-inner, .footer-inner, .pre-footer-inner .sqs-layout {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header-inner, .footer-inner, .pre-footer-inner {
+    width: auto;
+    margin: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+#header
+#header {
+    background-color: #000;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+#header {
+    padding: 0 21px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1em;
+    position: relative;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.nav-wrapper.show-on-scroll
+#header #mainNavWrapper {
+    text-align: center;
+}
+#header
+#header {
+    background-color: #000;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+#header {
+    padding: 0 21px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1em;
+    position: relative;
+}
+
+#mainNavWrapper nav a, #overlayNav nav a, #mainNavWrapper nav a:visited, #overlayNav nav a:visited, #mainNavWrapper nav label, #overlayNav nav label {
+    font-family: "Raleway",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "bebas-neue";
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .3em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    color: #82ccb8;
+}
+#header a {
+    text-decoration: none;
+}
+body:not(.always-use-overlay-nav) .nav-wrapper nav>div>a, body:not(.always-use-overlay-nav) .nav-wrapper nav span>div>a, body:not(.always-use-overlay-nav) .nav-wrapper nav>div label, body:not(.always-use-overlay-nav) .nav-wrapper nav span>div label {
+    display: block;
+    padding: .75em 1em;
+}
+body:not(.always-use-overlay-nav) .nav-wrapper nav>div a, body:not(.always-use-overlay-nav) .nav-wrapper nav span>div a, body:not(.always-use-overlay-nav) .nav-wrapper nav>div label, body:not(.always-use-overlay-nav) .nav-wrapper nav span>div label {
+    -webkit-transition: color .1s 0s ease-in-out;
+    -moz-transition: color .1s 0s ease-in-out;
+    -ms-transition: color .1s 0s ease-in-out;
+    -o-transition: color .1s 0s ease-in-out;
+    transition: color .1s 0s ease-in-out;
+    outline: none;
+}
+a, a:visited {
+    color: #ede6d9;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from div#mainNavWrapper.nav-wrapper.show-on-scroll
+#header #mainNavWrapper {
+    text-align: center;
+}
+Inherited from header#header
+#header {
+    background-color: #000;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+#header {
+    padding: 0 21px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1em;
+    position: relative;
+}
+Inherited from html#yui_3_17_2_1_1462063713792_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+.transparent-header.collection-type-index #header, .transparent-header.view-list #header, .transparent-header.collection-type-page #header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#header {
+    width: 100%;
+}
+#header {
+    background-color: #000;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+#header {
+    padding: 0 21px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1em;
+    position: relative;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+Inherited from html#yui_3_17_2_1_1462063713792_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+#siteWrapper {
+    background-color: #000;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+#siteWrapper {
+    position: relative;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#siteWrapper {
+    font-family: "Kameron",Georgia,serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    font-family: "bebas-neue";
+    font-size: 40px;
+    line-height: .4em;
+    letter-spacing: .08em;
+    font-weight: 400;
+    font-style: normal;
+    color: #060505;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from html#yui_3_17_2_1_1462068645302_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+Pseudo ::after element
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+#header #logoWrapper, #header #siteTitleWrapper {
+    z-index: 1001;
+}
+#header #logoWrapper, #header #logoImage {
+    height: auto;
+    width: 300px;
+    line-height: 1;
+}
+#header #logoWrapper, #header #siteTitleWrapper {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    text-align: center;
+}
+#header #logoWrapper, #header #siteTitleWrapper, #header #headerNav {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    vertical-align: middle;
+}
+#logoWrapper, #siteTitleWrapper {
+    z-index: 1000;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from header#header
+#header {
+    background-color: #000;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+#header {
+    padding: 0 21px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1em;
+    position: relative;
+}
+Inherited from html#yui_3_17_2_1_1462068645302_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    background-color: #081416;
+}
+
+body {
+    margin: 0;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+Inherited from html#yui_3_17_2_1_1462068645302_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+#logoWrapper, #siteTitleWrapper {
+    z-index: 1000;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from header#header
+#header {
+    background-color: #000;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+#header {
+    padding: 0 21px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1em;
+    position: relative;
+}
+Inherited from html#yui_3_17_2_1_1462068645302_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+#mainNavigation {
+  height: 40px;
+}
+body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-overlay-nav) .nav-wrapper nav span>div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+    #video {
+      margin: 0;
+
+  }
+  .portfolio-holder {
+      display: inline-block;
+      vertical-align: top;
+      width: 65%;
+      margin-left: 2%;
+      float: left;
+  }
+  user agent stylesheet
+  div {
+      display: block;
+  }
+  Inherited from body
+  body {
+      font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #111;
+      background-color: #fdfdfd;
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-feature-settings: "kern" 1;
+      -moz-font-feature-settings: "kern" 1;
+      -o-font-feature-settings: "kern" 1;
+      font-feature-settings: "kern" 1;
+      font-kerning: normal;
+  }
+  .wrapper, nav.site-nav, h2.section-heading {
+      max-width: calc(1000px - (30px * 2));
+  }
+  .wrapper, nav.site-nav, h2.section-heading {
+      max-width: -webkit-calc(800px - (30px * 2));
+      max-width: calc(800px - (30px * 2));
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 30px;
+      padding-left: 30px;
+  }
+  user agent stylesheet
+  div {
+      display: block;
+  }
+  Inherited from body
+  body {
+      font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #111;
+      background-color: #fdfdfd;
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-feature-settings: "kern" 1;
+      -moz-font-feature-settings: "kern" 1;
+      -o-font-feature-settings: "kern" 1;
+      font-feature-settings: "kern" 1;
+      font-kerning: normal;
+  }
+  Pseudo ::after element
+  .wrapper:after, nav.site-nav:after, h2.section-heading:after, .footer-col-wrapper:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+/* =======================================
+    Layout
+    keep this at the bottom
+========================================== */
+
+@media (min-width: 620px) {
+  .column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .column.full {
+    width: 100%;
+  }
+
+  .column.two-thirds {
+    width: 66.7%;
+  }
+
+  .column.half {
+    width: 50%;
+  }
+
+  .column.third {
+    width: 33.3%;
+  }
+
+  .column.fourth {
+    width: 25%;
+  }
+
+  .column.flow-opposite {
+    float: right;
+  }
+}
+
+
+/* row used as a clearfix to clear floats */

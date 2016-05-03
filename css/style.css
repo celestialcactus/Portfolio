@@ -364,7 +364,7 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 body {
-    background-color: #081416;
+    background-color: #000;
 }
 
 body {
@@ -480,6 +480,19 @@ body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-ove
       content: "";
       display: table;
       clear: both;
+  }
+
+  .maincontentarea {
+    position:absolute;
+    margin-top: 130px;
+    top:20%;
+    right:23%;
+}
+  .profile {
+    position:absolute;
+    margin-top: 130px;
+    top:20%;
+    right:23%;
   }
 /* =======================================
     Layout

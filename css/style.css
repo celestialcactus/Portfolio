@@ -58,7 +58,7 @@ h4 {
     place your custom styles below here
 ========================================== */
 
-#header #mainNavWrapper {
+#header #mainNavWrapper, #mainNavWrapper2 {
     text-align: center;
     padding: 0 21px;
     -moz-box-sizing: border-box;
@@ -124,7 +124,7 @@ article, aside, footer, header, hgroup, main, nav, section {
     display: block;
 }
 .nav-wrapper.show-on-scroll
-#header #mainNavWrapper {
+#header #mainNavWrapper, #mainNavWrapper2 {
     text-align: center;
 }
 #header
@@ -146,7 +146,7 @@ article, aside, footer, header, hgroup, main, nav, section {
     position: relative;
 }
 
-#mainNavWrapper nav a, #overlayNav nav a, #mainNavWrapper nav a:visited, #overlayNav nav a:visited, #mainNavWrapper nav label, #overlayNav nav label {
+#mainNavWrapper, #mainNavWrapper2 nav a, #overlayNav nav a, #mainNavWrapper, #mainNavWrapper2 nav a:visited, #overlayNav nav a:visited, #mainNavWrapper, #mainNavWrapper2 nav label, #overlayNav nav label {
     font-family: "Raleway",Arial,sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -189,8 +189,8 @@ a:-webkit-any-link {
     text-decoration: underline;
     cursor: auto;
 }
-Inherited from div#mainNavWrapper.nav-wrapper.show-on-scroll
-#header #mainNavWrapper  {
+Inherited from div#mainNavWrapper, #mainNavWrapper2.nav-wrapper.show-on-scroll
+#header #mainNavWrapper, #mainNavWrapper2  {
     text-align: center !important;
 }
 Inherited from header#header
@@ -211,13 +211,7 @@ Inherited from header#header
     line-height: 1em;
     position: relative;
 }
-#yui_3_17_2_1_1462063713792_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    height:auto;
-}
+
 
 
 .transparent-header.collection-type-index #header, .transparent-header.view-list #header, .transparent-header.collection-type-page #header {
@@ -254,12 +248,7 @@ user agent stylesheet
 article, aside, footer, header, hgroup, main, nav, section {
     display: block;
 }
-Inherited from html#yui_3_17_2_1_1462063713792_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
+
 #siteWrapper {
     background-color: #000;
     -moz-osx-font-smoothing: grayscale;
@@ -289,12 +278,7 @@ user agent stylesheet
 div {
     display: block;
 }
-Inherited from html#yui_3_17_2_1_1462068645302_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
+
 Pseudo ::before element
 .clearfix:before, .clearfix:after {
     content: " ";
@@ -359,12 +343,7 @@ Inherited from header#header
     line-height: 1em;
     position: relative;
 }
-Inherited from html#yui_3_17_2_1_1462068645302_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
+
 body {
     background-color: #000;
 }
@@ -377,12 +356,7 @@ body {
     display: block;
     margin: 8px;
 }
-Inherited from html#yui_3_17_2_1_1462068645302_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
+
 #logoWrapper, #siteTitleWrapper {
     z-index: 1000;
 }
@@ -415,7 +389,7 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-#mainNavigation {
+#mainNavigation, #mainNavigation2 {
   height: 40px;
 }
 body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-overlay-nav) .nav-wrapper nav span>div {
@@ -530,7 +504,7 @@ width: 100%;
 #reel-section #video {height: auto;
 max-width: 100%;
 }
-
+.mobile-nav-toggle-label { display: inline-block; }
 /* =======================================
     Layout
     keep this at the bottom

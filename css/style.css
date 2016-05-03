@@ -392,10 +392,14 @@ html {
 #mainNavigation, #mainNavigation2 {
   height: 40px;
 }
+#mainNavWrapper, #mainNavWrapper2 {
+  margin-top:35px;
+}
 body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-overlay-nav) .nav-wrapper nav span>div {
     display: inline-block;
     vertical-align: middle;
     margin: 0;
+
 }
     #video {
       margin: 0;
@@ -465,7 +469,7 @@ body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-ove
     right:23%;
 }
   .profile {
-    position:absolute;
+    position:relative;
     margin-top: 130px;
     top:20%;
     height:auto;
@@ -482,8 +486,8 @@ body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-ove
   .text p {
     color:#888;
     line-height: 1.2em;
-    font-size: 0.5em;
-
+    font-size: 1.15em;
+    padding: 0 20px;
 
   }
   #siteWrapper {
@@ -495,7 +499,6 @@ body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-ove
     height:auto;
   }
   #reel-section {
-margin-top: 250px;
 border: 2px #fff solid;
 position: relative;
 left: 20%;
@@ -548,5 +551,11 @@ max-width: 100%;
   .profile {
   margin-top:300px;
 }
+#reel-section {
+margin-top: 250px;
 }
+#mainNavigation, #mainNavigation2 {
+  margin-top:100px;
+}
+
 /* row used as a clearfix to clear floats */

@@ -70,6 +70,7 @@ h4 {
     width: 100%;
     line-height: 1em;
     position: relative;
+
 }
 
 
@@ -189,8 +190,8 @@ a:-webkit-any-link {
     cursor: auto;
 }
 Inherited from div#mainNavWrapper.nav-wrapper.show-on-scroll
-#header #mainNavWrapper {
-    text-align: center;
+#header #mainNavWrapper  {
+    text-align: center !important;
 }
 Inherited from header#header
 #header {
@@ -210,11 +211,12 @@ Inherited from header#header
     line-height: 1em;
     position: relative;
 }
-Inherited from html#yui_3_17_2_1_1462063713792_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
+#yui_3_17_2_1_1462063713792_179.yui3-js-enabled.js.flexbox.canvas.canvastext.webgl.no-touch.hashchange.history.draganddrop.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.no-csstransforms3d.csstransitions.video.audio.svg.inlinesvg.svgclippaths.wf-bebasneue-n4-active.wf-dincondensedweb-n4-active.wf-calluna-i4-active.wf-calluna-i6-active.wf-calluna-i7-active.wf-calluna-n3-active.wf-calluna-n4-active.wf-calluna-n6-active.wf-calluna-n7-active.wf-calluna-n9-active.wf-active.gr__corridor-digital_com
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    height:auto;
 }
 
 
@@ -492,9 +494,14 @@ body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-ove
     position:absolute;
     margin-top: 130px;
     top:20%;
+    height:auto;
 
   }
-
+  .profile img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  }
   .text {
     display:inline;
   }
@@ -510,6 +517,20 @@ body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-ove
     width:100%;
     margin: 0 auto;
   }
+  #video {
+    height:auto;
+  }
+  #reel-section {
+margin-top: 250px;
+border: 2px #fff solid;
+position: relative;
+left: 20%;
+width: 100%;
+}
+#reel-section #video {height: auto;
+max-width: 100%;
+}
+
 /* =======================================
     Layout
     keep this at the bottom
@@ -546,6 +567,12 @@ body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-ove
     float: right;
   }
 }
-
-
+@media (max-width:400px) {
+  .index a, .index {
+    width:100% !important;
+  }
+  .profile {
+  margin-top:300px;
+}
+}
 /* row used as a clearfix to clear floats */

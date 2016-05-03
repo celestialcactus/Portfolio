@@ -492,7 +492,23 @@ body:not(.always-use-overlay-nav) .nav-wrapper nav>div, body:not(.always-use-ove
     position:absolute;
     margin-top: 130px;
     top:20%;
-    right:23%;
+
+  }
+
+  .text {
+    display:inline;
+  }
+  .text p {
+    color:#888;
+    line-height: 1.2em;
+    font-size: 0.5em;
+
+
+  }
+  #siteWrapper {
+    max-width: 1200px;
+    width:100%;
+    margin: 0 auto;
   }
 /* =======================================
     Layout
